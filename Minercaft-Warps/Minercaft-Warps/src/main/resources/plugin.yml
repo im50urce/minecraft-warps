@@ -1,0 +1,17 @@
+name: Minercaft-Warps
+version: '${project.version}'
+main: nl._50urce.www.Minercaft_Warps
+api-version: '1.19'
+commands:
+  delwarp:
+    description: delete a warp
+    usage: /delwarp <warp name>
+  setwarp:
+    description: set/create a new warp
+    usage: /setwarp <warp name>
+  warp:
+    description: go to a warp location
+    usage: /warp <warp name>
+  warps:
+    description: show all the warps
+    usage: /warps
